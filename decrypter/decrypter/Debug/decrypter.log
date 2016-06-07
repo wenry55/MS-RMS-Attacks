@@ -1,0 +1,8 @@
+﻿  decrypter.cpp
+decrypter.cpp(131): warning C4101: 'hr': unreferenced local variable
+decrypter.cpp(302): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+decrypter.cpp(319): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+decrypter.cpp(342): warning C4244: '=': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  decrypter.vcxproj -> C:\Users\max.mustermann\Desktop\visual-studio-projects\decrypter\Debug\decrypter.exe
+  decrypter.vcxproj -> C:\Users\max.mustermann\Desktop\visual-studio-projects\decrypter\Debug\decrypter.pdb (Partial PDB)

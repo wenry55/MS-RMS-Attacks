@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  decrypter.cpp
+decrypter.cpp(213): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+decrypter.cpp(246): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  decrypter.vcxproj -> C:\Users\Administrator\Desktop\modfication-attack\Release\decrypter.exe
+  decrypter.vcxproj -> C:\Users\Administrator\Desktop\modfication-attack\Release\decrypter.pdb (Full PDB)
