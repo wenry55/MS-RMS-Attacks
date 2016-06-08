@@ -43,3 +43,5 @@ The tampered protected document can not be distinguished from the original prote
 It will look as it would have been created by the original author and only show the correct view access right for the
 attacker.
 This basically neglects the idea of the view-only RMS protection.
+
+#### For a demo see the examples dir ####
