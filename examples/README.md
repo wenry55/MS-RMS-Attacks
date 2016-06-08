@@ -7,7 +7,8 @@
     - https://www.microsoft.com/de-de/download/details.aspx?id=38396
 - MS C++ Redistributable 2015 must be installed
 
-#### Automatically unprotect ####
+## Unprotect Attack: automatically
+
 - To unprotect a file you need at least the view right
 - To be able to unprotect the document 7Zip must be installed on the client machine
 - The User must be able to open RMS files on the client machine the attack is executed on
@@ -17,7 +18,8 @@
     - if MS Office does not opens the file (decrypted.docx) it should at least be stored in the "unprotected" directory
     - if the file is not available something went wrong *sorry*
 
-#### Manual unprotect ####
+## Unprotect Attack: manual
+
 - Split the protected file (e.g. foobar.docx) in its parts (can be done on every computer must not be the company computer)
     - EncryptedPackage
     - [6]DataSpaces
@@ -29,7 +31,8 @@
 - execute unprotect.exe in the "unprotected" directory
 - A file (decrypted.docx) should be created in the same directory
 
-#### Automatically Manipulation Attack ####
+## Manipulation Attack: automatically
+
 - Do the unprotect Attack
     - if the unprotect attack was successful go one
     - otherwise do the manual way for unprotect and manipulation attack
@@ -53,7 +56,8 @@
 - Now save the file under arbitrary name
 - You should now be able to open the modified but again protected file with your original rights.
 
-#### Manual unprotect ####
+## Manipulation Attack: manual
+
 - Do the unprotect Attack
     - if the unprotect attack was successful go one
     - otherwise do the manual way for unprotect
