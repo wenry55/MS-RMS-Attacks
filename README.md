@@ -1,4 +1,7 @@
-# MS-RMS-Attacks
+# MS-RMS-Attacks 
+
+For an overview see:
+https://web-in-security.blogspot.de/2016/07/how-to-break-microsoft-rights.html
 
 We present two different attacks on Microsoft RMS:
 
