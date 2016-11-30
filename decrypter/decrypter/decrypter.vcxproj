@@ -119,8 +119,9 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <CompileAsManaged>true</CompileAsManaged>
+      <Optimization>Full</Optimization>
     </ClCompile>
     <Link>
       <AdditionalDependencies>msipc.lib;msipc_s.lib;%(AdditionalDependencies)</AdditionalDependencies>

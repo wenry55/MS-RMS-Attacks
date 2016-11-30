@@ -1,9 +1,14 @@
-﻿  stdafx.cpp
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (decrypter.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
   AssemblyInfo.cpp
-  decrypter.cpp
-decrypter.cpp(213): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-decrypter.cpp(246): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  manipulation-attack.cpp
+manipulation-attack.cpp(139): warning C4101: 'cbEncrypted': unreferenced local variable
+manipulation-attack.cpp(269): warning C4101: 'cbEncrypted': unreferenced local variable
+manipulation-attack.cpp(457): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+manipulation-attack.cpp(498): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+manipulation-attack.cpp(568): warning C4018: '<': signed/unsigned mismatch
+manipulation-attack.cpp(440): warning C4101: 'output': unreferenced local variable
   Generating Code...
   .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
-  decrypter.vcxproj -> C:\Users\Administrator\Desktop\modfication-attack\Release\decrypter.exe
-  decrypter.vcxproj -> C:\Users\Administrator\Desktop\modfication-attack\Release\decrypter.pdb (Full PDB)
+  decrypter.vcxproj -> C:\Users\max.mustermann\Source\Repos\MS-RMS-Attacks\modfication-attack\Release\manipulation-attack.exe
+  decrypter.vcxproj -> C:\Users\max.mustermann\Source\Repos\MS-RMS-Attacks\modfication-attack\Release\manipulation-attack.pdb (Full PDB)
