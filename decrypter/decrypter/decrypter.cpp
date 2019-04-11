@@ -268,7 +268,7 @@ int __cdecl main()
 	hr = IpcInitialize();
 
 	std::streampos size;
-	char * license = new char[50000];
+	char * license = new char[200000];
 	char xml_size_byte1;
 	char xml_size_byte2;
 	char encrypted_content_size_byte1;
